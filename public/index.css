@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  background-color: black;
+}
+.Navcomponent
+{
+  display: flex;
+  height: 60px;
+  background-color: #F55A5A;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  
+}
+
+.Navcomponent>img
+{
+ 
+ width: 30px;
+ 
+  
+}
+
+.Navcomponent>p
+{
+ color:white;
+ font-family: Inter,Arial;
+ font-size: 16px;
+  
+}
+
+
+  .main-container
+  {
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    margin-top: 40px;
+    margin-left: 50px;
+    position: relative;
+    
+  }
+
+  .main-container:not(:last-of-type)::after {
+    position: absolute;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    content: "";
+  }
+  
+  
+
+
+
+  .img
+  {
+    width: 300px;
+    height: 220px;
+    border-radius: 10px;
+    
+  }
+  .loc-container
+  {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+    
+  
+   
+  }
+  .icon{
+    width: 10px;
+    align-self:center;
+    margin-right:8px;
+    
+  }
+  .location
+  {
+    font-family: Inter;
+    letter-spacing: 0.2em;
+    margin-right: 10px;
+    color: white;
+  }
+  
+  .gmaps
+  {
+    color: grey;
+   font-weight: 10px;
+   align-self: center;
+   
+  }
+  
+  .title
+  {
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: white;
+  }
+
+  .date
+  {
+    font-weight: bold;
+    color: white;
+    
+  }
+
+  .desc
+  {
+    font-family: Arial;
+   
+    color: white;
+  }
+
+.footer{
+  color:white;
+  background-color: #F55A5A;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  font-family: inter;
+}
